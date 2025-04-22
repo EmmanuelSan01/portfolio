@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Sánchez - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <button id="lang-switch" class="lang-switch" aria-label="Cambiar idioma">ES</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="profile-pic">
+        <img src="./img/ese.webp" alt="Manu Torres profile"/>
+      </div>
+      <h1>Emmanuel Sánchez</h1>
+      <div class="social-icons">
+        <a href="https://github.com/emmanuelsan01" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/emmanuelsan01/" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+      </div>
+    </section>
+    <section class="about">
+      <h2>Sobre mí</h2>
+      <div class="about-desc">
+        Desarrollador de Software Junior con conocimientos en Python, HTML, CSS, JavaScript, Git, SQL, Java. Capaz de desarrollar soluciones eficientes de alta calidad, aplicando buenas prácticas de programación.
+      </div>
+    </section>
+    <section class="projects">
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./img/SISGESA.webp" alt="SISGESA" />
+          <div class="project-title">SISGESA <span class="project-year">2024</span></div>
+          <div class="project-desc">Aplicación de consola para gestionar asistencia académica, con generación de informes sobre puntualidad y asistencia.</div>
+          <div class="project-chips">
+            <span class="chip">Python</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./img/Hotel-Booking.webp" alt="Camila's Corner" />
+          <div class="project-title">Camila's Corner <span class="project-year">2025</span></div>
+          <div class="project-desc">Sitio Web para presentar los servicios y gestionar las reservas del hotel Camila's Corner.</div>
+          <div class="project-chips">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">JSON Server</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./img/Tablero-Kanban.webp" alt="Tablero Kanban" />
+          <div class="project-title">Tablero Kanban <span class="project-year">2025</span></div>
+          <div class="project-desc">Aplicación web para gestionar tareas para la Agencia de Eventos Momentum.</div>
+          <div class="project-chips">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./img/Los-Ambientales-DB.webp" alt="Los Ambientales DB" />
+          <div class="project-title">Los Ambientales DB <span class="project-year">2025</span></div>
+          <div class="project-desc">Base de datos que permite gestionar de manera eficiente operaciones relacionadas con los parques naturales de Colombia.</div>
+          <div class="project-chips">
+            <span class="chip">MySQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <h2>Habilidades</h2>
+      <div class="skills-list">
+        <span class="chip">Python</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">Bulma</span>
+        <span class="chip">Tailwind</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">JSON Server</span>
+        <span class="chip">Git</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">SQL Server</span>
+        <span class="chip">Java</span>
+        <span class="chip">Bootstrap</span>
+        <span class="chip">Figma</span>
+      </div>
+    </section>
+    <section class="contact">
+      <h2>Contacto</h2>
+      <form id="contact-form" autocomplete="off">
+        <input type="text" name="name" placeholder="Nombre">
+        <input type="email" name="email" placeholder="Correo electrónico">
+        <textarea name="message" placeholder="Escribe aquí el mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
